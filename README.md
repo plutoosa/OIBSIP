@@ -1,2 +1,2 @@
 # OIBSIP
-My projects for the Oasis Infobyte internship which includes a text-based chat application, bmi calculator, password generator, voice assistant and a weather app
+This respository contains my projects for the Oasis infobyte program (July 2025)
