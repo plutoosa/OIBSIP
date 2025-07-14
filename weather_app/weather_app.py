@@ -35,7 +35,7 @@ def display_weather(data, city_name):
     print(f"Humidity: {humidity}%")
 
 def main():
-    api_key = '1a50e26803e5a15bd1bde84dfa83232b'
+    api_key = os.getenv("OPENWEATHER_API_KEY")
     city_name = input("Enter your city name: ")
 
     data = get_weather_data(city_name, api_key)
